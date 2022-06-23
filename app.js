@@ -24,10 +24,16 @@ function renderState() {
 // maybe a dozen or so helper functions for tiny pieces of the interface
 
 // listeners
-function onBoardClick() {
-  // update state, maybe with another dozen or so helper functions...
 
-  renderState() // show the user the new state
-}
+const playerSel = document.getElementsByClassName('selection')
+
 const board = document.getElementById('board');
-board.addEventListener('click', onBoardClick); 
+
+board.addEventListener('click', (event) => {
+    event.target.innerHTML = gameState.players[0]
+
+    if( board % 2 === 0){
+
+
+    }
+}); 

@@ -4,6 +4,7 @@ body{
     align-items: center;
     margin-top: 10%;
     background-color: lightgray;
+    font-family: 'tarrget';
     
 }
 
@@ -24,6 +25,8 @@ table{
 }
 
 td {
+    font-size: 90px;
+    text-align: center;
     border: 5px solid greenyellow;
     height: 150px;
     width: 150px;
@@ -39,7 +42,7 @@ td {
         justify-content: center;
         align-items: center;
         border: none;
-        margin:10px 0 5px 190px;
+        margin:10px 0 5px 180px;
         padding: 15px;
         border: 5px solid greenyellow;
         border-radius: 50px;
