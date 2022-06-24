@@ -26,6 +26,7 @@ function renderState() {
 // listeners
 
 const playerSel = document.getElementsByClassName('selection')
+playerSel.addEventListener('click')
 
 const board = document.getElementById('board');
 

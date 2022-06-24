@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <h1 class="name">Tic - Tac - Toe</h1>
 
-<div class="game">
-<h1 class = 'name'>Tic - Tac - Toe</h1>
+      <select class="selection">
+        <option value="-">-</option>
+        <option value="player-one">Player One</option>
+      </select>
 
-<select class ="selection" >
-    <option value = "-"> - </option>
-    <option value="player-one">Player One</option>
-  </select>
-
-
-    <table id="board">
+      <table id="board">
         <tr>
-            <td id = '00'></td>
-            <td id = '01'></td>
-            <td id = '02'></td>
+          <td id="00"></td>
+          <td id="01"></td>
+          <td id="02"></td>
         </tr>
         <tr>
-            <td id = '03'></td>
-            <td id = '04'></td>
-            <td id = '05'></td>
+          <td id="03"></td>
+          <td id="04"></td>
+          <td id="05"></td>
         </tr>
         <tr>
-            <td id = '06'></td>
-            <td id = '07'></td>
-            <td id = '08'></td>
+          <td id="06"></td>
+          <td id="07"></td>
+          <td id="08"></td>
         </tr>
-    </table>
+      </table>
 
-      <button id = 'button' type="button">Start Game</button>
-</div>    
+      <button id="button" type="button">Reset Game</button>
+    </div>
 
-        <script src="app.js" async defer></script>
-    </body>
+    <script src="app.js" async defer></script>
+  </body>
 </html>
