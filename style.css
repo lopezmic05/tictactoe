@@ -52,7 +52,7 @@ td:nth-child(2n + 1) {
   color: #fff;
 }
 
-#button {
+#reset-button {
   color: aliceblue;
   background-color: black;
   margin: 10px 0 10px 145px;

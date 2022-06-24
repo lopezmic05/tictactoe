@@ -25,16 +25,12 @@ function renderState() {
 
 // listeners
 
-const playerSel = document.getElementsByClassName('selection')
-playerSel.addEventListener('click')
+// const playerSel = document.getElementsByClassName('selection')
+// playerSel.addEventListener('click')
 
 const board = document.getElementById('board');
 
 board.addEventListener('click', (event) => {
-    event.target.innerHTML = gameState.players[0]
+    event.target.innerHTML = gameState.players[1]
 
-    if( board % 2 === 0){
-
-
-    }
 }); 
